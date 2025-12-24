@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: workmgmt
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: hemanthtech143@gmail.com
+    password: uudhmnzbzqrdlgkw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
