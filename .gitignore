@@ -8,7 +8,7 @@ target/
 /.idea
 *.iml
 .env
-application-prod.yml
+
 
 ### STS ###
 .apt_generated
